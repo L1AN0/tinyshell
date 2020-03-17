@@ -1,6 +1,8 @@
 Tiny Shell
 =====
 
+![C/C++ CI](https://github.com/L1AN0/tinyshell/workflows/C/C++%20CI/badge.svg)
+
 ## Additional features
 
 1. In my shell one can execute several commands at once (commands are sparated by `;`)
