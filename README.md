@@ -25,7 +25,7 @@ Header files are in `/include`; source files are in `/src`
 
 ## To compile the shell
   
-Firstly `cd /build` then `cmake ..` then `make`.
+Firstly `mkdir -p build && cd build` then `cmake ..` then `make`.
 
 ## To run the shell
 
