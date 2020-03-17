@@ -1,4 +1,7 @@
-# Additional features
+Tiny Shell
+=====
+
+## Additional features
 
 1. In my shell one can execute several commands at once (commands are sparated by `;`)
 
@@ -16,11 +19,11 @@ echo 123 ; echo 5 | base64 ; echo lalal5 | base64 | base64 -d
 
 This is the default behaviour of `fish` shell. If `-k` is not passed then the command will still be run and added to the job control (we may use ctrl-c to terminate it if it is in foreground). This is the default behavior of `bash` shell and `dash` shell etc.
 
-# Files
+## Files
 
 Header files are in `/include`; source files are in `/src`
 
-# To compile the shell
+## To compile the shell
   
 In the cloned folder run
 
@@ -28,7 +31,7 @@ In the cloned folder run
 
 We can also compile it by firstly `cd /build` then `cmake ..` then `make`.
 
-# To run the shell
+## To run the shell
 
 After building the shell, run
 
@@ -38,7 +41,7 @@ or if we compiled using `cmake` in the `build` dir as in last section, we can ru
 
 `./shell -h` will print the usage.
 
-# To bring a program foreground:
+## To bring a program foreground:
 
     tsh> fg <jobid>
 
@@ -53,6 +56,6 @@ There is also
 
     tsh> bg <jobid>
 
-# Others
+## Others
 
 `cd`, pipe, background & foreground (`jobs`, `fg`, `bg`), `exit` are implemented. errors are handled the job control for commands with pipe is also well implemented.
