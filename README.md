@@ -25,19 +25,13 @@ Header files are in `/include`; source files are in `/src`
 
 ## To compile the shell
   
-In the cloned folder run
-
-  make
-
-We can also compile it by firstly `cd /build` then `cmake ..` then `make`.
+Firstly `cd /build` then `cmake ..` then `make`.
 
 ## To run the shell
 
 After building the shell, run
 
     ./shell
-
-or if we compiled using `cmake` in the `build` dir as in last section, we can run the shell by `cd build` followed by `./shell`.
 
 `./shell -h` will print the usage.
 
