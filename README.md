@@ -55,3 +55,9 @@ There is also
 ## Others
 
 `cd`, pipe, background & foreground (`jobs`, `fg`, `bg`), `exit` are implemented. errors are handled the job control for commands with pipe is also well implemented.
+
+## TODO
+
+- [ ] Full unit test and mock test.
+- [ ] Simple job queue implementation.
+- [ ] Autocompletion.
