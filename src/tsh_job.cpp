@@ -8,8 +8,8 @@
 
 void add_job(int pid, int pgid, char *command_line, int processes);
 void delete_job(int pgid);
-int get_job_remaining_processes(int pgid) ;
-int get_job_index_from_pid(int pid) ;
+int get_job_remaining_processes(int pgid);
+int get_job_index_from_pid(int pid);
 
 // list jobs in the format %jobid : %command_line
 void tsh_jobs() {
